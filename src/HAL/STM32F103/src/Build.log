@@ -1,0 +1,607 @@
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\Main.c(4) : Warning[Pe301]: typedef name has already been declared (with same type)
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\Main.c(18) : Warning[Pe223]: function "CheckUpdateFlag" declared implicitly
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\Main.c(33) : Warning[Pe223]: function "Usart1GetUpdatePacks" declared implicitly
+ 
+ 168 bytes of CODE memory
+   8 bytes of DATA memory
+
+Errors: none
+Warnings: 3
+
+misc.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\RA8871_01_Kernel\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 228 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_crc.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\RA8871_01_Kernel\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 86 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_dma.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\RA8871_01_Kernel\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 550 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_exti.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\RA8871_01_Kernel\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 306 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_flash.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\RA8871_01_Kernel\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_fsmc.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\RA8871_01_Kernel\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 1 646 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_gpio.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\RA8871_01_Kernel\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 14 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_iwdg.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\RA8871_01_Kernel\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 88 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_rcc.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\RA8871_01_Kernel\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 1 174 bytes of CODE memory
+    20 bytes of DATA memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_spi.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\RA8871_01_Kernel\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 892 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_tim.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\RA8871_01_Kernel\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_usart.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\RA8871_01_Kernel\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\Main.c(4) : Warning[Pe301]: typedef name has already been declared (with same type)
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\Main.c(19) : Warning[Pe223]: function "CheckUpdateFlag" declared implicitly
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\Main.c(34) : Warning[Pe223]: function "Usart1GetUpdatePacks" declared implicitly
+misc.c 
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(53) : Warning[25]: Label 'SystemInit_ExtMemCtl' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(164) : Warning[25]: Label 'NMI_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(168) : Warning[25]: Label 'HardFault_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(172) : Warning[25]: Label 'MemManage_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(176) : Warning[25]: Label 'BusFault_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(180) : Warning[25]: Label 'UsageFault_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(184) : Warning[25]: Label 'SVC_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(188) : Warning[25]: Label 'DebugMon_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(192) : Warning[25]: Label 'PendSV_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(196) : Warning[25]: Label 'SysTick_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(200) : Warning[25]: Label 'WWDG_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(204) : Warning[25]: Label 'PVD_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(208) : Warning[25]: Label 'TAMPER_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(212) : Warning[25]: Label 'RTC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(216) : Warning[25]: Label 'FLASH_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(220) : Warning[25]: Label 'RCC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(224) : Warning[25]: Label 'EXTI0_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(228) : Warning[25]: Label 'EXTI1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(232) : Warning[25]: Label 'EXTI2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(236) : Warning[25]: Label 'EXTI3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(240) : Warning[25]: Label 'EXTI4_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(244) : Warning[25]: Label 'DMA1_Channel1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(248) : Warning[25]: Label 'DMA1_Channel2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(252) : Warning[25]: Label 'DMA1_Channel3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(256) : Warning[25]: Label 'DMA1_Channel4_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(260) : Warning[25]: Label 'DMA1_Channel5_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(264) : Warning[25]: Label 'DMA1_Channel6_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(268) : Warning[25]: Label 'DMA1_Channel7_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(272) : Warning[25]: Label 'ADC1_2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(276) : Warning[25]: Label 'USB_HP_CAN1_TX_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(280) : Warning[25]: Label 'USB_LP_CAN1_RX0_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(284) : Warning[25]: Label 'CAN1_RX1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(288) : Warning[25]: Label 'CAN1_SCE_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(292) : Warning[25]: Label 'EXTI9_5_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(296) : Warning[25]: Label 'TIM1_BRK_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(300) : Warning[25]: Label 'TIM1_UP_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(304) : Warning[25]: Label 'TIM1_TRG_COM_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(308) : Warning[25]: Label 'TIM1_CC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(312) : Warning[25]: Label 'TIM2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(316) : Warning[25]: Label 'TIM3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(320) : Warning[25]: Label 'TIM4_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(324) : Warning[25]: Label 'I2C1_EV_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(328) : Warning[25]: Label 'I2C1_ER_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(332) : Warning[25]: Label 'I2C2_EV_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(336) : Warning[25]: Label 'I2C2_ER_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(340) : Warning[25]: Label 'SPI1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(344) : Warning[25]: Label 'SPI2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(348) : Warning[25]: Label 'USART1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(352) : Warning[25]: Label 'USART2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(356) : Warning[25]: Label 'USART3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(360) : Warning[25]: Label 'EXTI15_10_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(364) : Warning[25]: Label 'RTCAlarm_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(368) : Warning[25]: Label 'USBWakeUp_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(372) : Warning[25]: Label 'TIM8_BRK_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(376) : Warning[25]: Label 'TIM8_UP_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(380) : Warning[25]: Label 'TIM8_TRG_COM_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(384) : Warning[25]: Label 'TIM8_CC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(388) : Warning[25]: Label 'ADC3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(392) : Warning[25]: Label 'FSMC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(396) : Warning[25]: Label 'SDIO_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(400) : Warning[25]: Label 'TIM5_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(404) : Warning[25]: Label 'SPI3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(408) : Warning[25]: Label 'UART4_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(412) : Warning[25]: Label 'UART5_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(416) : Warning[25]: Label 'TIM6_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(420) : Warning[25]: Label 'TIM7_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(424) : Warning[25]: Label 'DMA2_Channel1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(428) : Warning[25]: Label 'DMA2_Channel2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(432) : Warning[25]: Label 'DMA2_Channel3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(436) : Warning[25]: Label 'DMA2_Channel4_5_IRQHandler' is defined pubweak in a section implicitly declared root
+stm32f10x_crc.c 
+stm32f10x_dma.c 
+stm32f10x_exti.c 
+stm32f10x_flash.c 
+stm32f10x_fsmc.c 
+stm32f10x_gpio.c 
+stm32f10x_iwdg.c 
+stm32f10x_rcc.c 
+stm32f10x_spi.c 
+stm32f10x_tim.c 
+stm32f10x_usart.c 
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(18) : Error[Pe020]: identifier "ICON" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(21) : Error[Pe029]: expected an expression
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(18) : Error[Pe1345]: an empty initializer is invalid for an array with unspecified bound
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(24) : Error[Pe020]: identifier "LABEL" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(27) : Error[Pe020]: identifier "TEXT_ALIGN_LEFT" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(30) : Error[Pe020]: identifier "BUTTON" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(33) : Error[Pe029]: expected an expression
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(30) : Error[Pe1345]: an empty initializer is invalid for an array with unspecified bound
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(35) : Error[Pe020]: identifier "PROGRESSBAR" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(41) : Error[Pe020]: identifier "CONTROLS" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(43) : Error[Pe020]: identifier "UI_TYPE_LABEL" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(43) : Error[Pe020]: identifier "LABEL" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(43) : Error[Pe029]: expected an expression
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(44) : Error[Pe020]: identifier "UI_TYPE_PROGRESSBAR" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(44) : Error[Pe020]: identifier "PROGRESSBAR" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(44) : Error[Pe029]: expected an expression
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(45) : Error[Pe020]: identifier "NULL_WIDGET" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(48) : Error[Pe020]: identifier "PAGE" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(48) : Error[Pe020]: identifier "CONTROLS" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(48) : Error[Pe029]: expected an expression
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(48) : Error[Pe067]: expected a "}"
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(71) : Error[Pe020]: identifier "ICON" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(71) : Error[Pe020]: identifier "pIcon" is undefined
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(72) : Warning[Pe223]: function "LCD_Fill" declared implicitly
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(73) : Error[Pe029]: expected an expression
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(76) : Warning[Pe223]: function "LCD_DrawColorBitmap" declared implicitly
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(53) : Warning[Pe177]: function "OnClick1" was declared but never referenced
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(68) : Warning[Pe177]: function "OnMainPageInit" was declared but never referenced
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\MainPage.c(58) : Warning[Pe177]: function "OnMainProcess" was declared but never referenced
+Error while running C/C++ Compiler
+misc.c 
+Error while running C/C++ Compiler
+stm32f10x_crc.c 
+stm32f10x_dma.c 
+stm32f10x_exti.c 
+stm32f10x_flash.c 
+stm32f10x_fsmc.c 
+stm32f10x_gpio.c 
+stm32f10x_iwdg.c 
+stm32f10x_rcc.c 
+stm32f10x_spi.c 
+stm32f10x_tim.c 
+stm32f10x_usart.c 
+misc.c 
+stm32f10x_crc.c 
+stm32f10x_dma.c 
+stm32f10x_exti.c 
+stm32f10x_flash.c 
+stm32f10x_fsmc.c 
+stm32f10x_gpio.c 
+stm32f10x_iwdg.c 
+stm32f10x_rcc.c 
+stm32f10x_spi.c 
+stm32f10x_tim.c 
+stm32f10x_usart.c 
+ 
+  66 bytes of CODE  memory
+ 184 bytes of CONST memory
+   4 bytes of DATA  memory
+
+Errors: none
+Warnings: 1
+
+misc.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4F -e --fpu=VFPv4_sp --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(53) : Warning[25]: Label 'SystemInit_ExtMemCtl' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(164) : Warning[25]: Label 'NMI_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(168) : Warning[25]: Label 'HardFault_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(172) : Warning[25]: Label 'MemManage_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(176) : Warning[25]: Label 'BusFault_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(180) : Warning[25]: Label 'UsageFault_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(184) : Warning[25]: Label 'SVC_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(188) : Warning[25]: Label 'DebugMon_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(192) : Warning[25]: Label 'PendSV_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(196) : Warning[25]: Label 'SysTick_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(200) : Warning[25]: Label 'WWDG_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(204) : Warning[25]: Label 'PVD_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(208) : Warning[25]: Label 'TAMPER_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(212) : Warning[25]: Label 'RTC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(216) : Warning[25]: Label 'FLASH_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(220) : Warning[25]: Label 'RCC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(224) : Warning[25]: Label 'EXTI0_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(228) : Warning[25]: Label 'EXTI1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(232) : Warning[25]: Label 'EXTI2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(236) : Warning[25]: Label 'EXTI3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(240) : Warning[25]: Label 'EXTI4_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(244) : Warning[25]: Label 'DMA1_Channel1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(248) : Warning[25]: Label 'DMA1_Channel2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(252) : Warning[25]: Label 'DMA1_Channel3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(256) : Warning[25]: Label 'DMA1_Channel4_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(260) : Warning[25]: Label 'DMA1_Channel5_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(264) : Warning[25]: Label 'DMA1_Channel6_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(268) : Warning[25]: Label 'DMA1_Channel7_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(272) : Warning[25]: Label 'ADC1_2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(276) : Warning[25]: Label 'USB_HP_CAN1_TX_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(280) : Warning[25]: Label 'USB_LP_CAN1_RX0_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(284) : Warning[25]: Label 'CAN1_RX1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(288) : Warning[25]: Label 'CAN1_SCE_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(292) : Warning[25]: Label 'EXTI9_5_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(296) : Warning[25]: Label 'TIM1_BRK_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(300) : Warning[25]: Label 'TIM1_UP_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(304) : Warning[25]: Label 'TIM1_TRG_COM_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(308) : Warning[25]: Label 'TIM1_CC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(312) : Warning[25]: Label 'TIM2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(316) : Warning[25]: Label 'TIM3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(320) : Warning[25]: Label 'TIM4_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(324) : Warning[25]: Label 'I2C1_EV_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(328) : Warning[25]: Label 'I2C1_ER_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(332) : Warning[25]: Label 'I2C2_EV_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(336) : Warning[25]: Label 'I2C2_ER_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(340) : Warning[25]: Label 'SPI1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(344) : Warning[25]: Label 'SPI2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(348) : Warning[25]: Label 'USART1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(352) : Warning[25]: Label 'USART2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(356) : Warning[25]: Label 'USART3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(360) : Warning[25]: Label 'EXTI15_10_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(364) : Warning[25]: Label 'RTCAlarm_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(368) : Warning[25]: Label 'USBWakeUp_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(372) : Warning[25]: Label 'TIM8_BRK_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(376) : Warning[25]: Label 'TIM8_UP_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(380) : Warning[25]: Label 'TIM8_TRG_COM_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(384) : Warning[25]: Label 'TIM8_CC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(388) : Warning[25]: Label 'ADC3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(392) : Warning[25]: Label 'FSMC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(396) : Warning[25]: Label 'SDIO_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(400) : Warning[25]: Label 'TIM5_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(404) : Warning[25]: Label 'SPI3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(408) : Warning[25]: Label 'UART4_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(412) : Warning[25]: Label 'UART5_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(416) : Warning[25]: Label 'TIM6_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(420) : Warning[25]: Label 'TIM7_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(424) : Warning[25]: Label 'DMA2_Channel1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(428) : Warning[25]: Label 'DMA2_Channel2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(432) : Warning[25]: Label 'DMA2_Channel3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(436) : Warning[25]: Label 'DMA2_Channel4_5_IRQHandler' is defined pubweak in a section implicitly declared root
+Errors:   0
+Warnings: 70
+Bytes: 608
+
+stm32f10x_crc.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4F -e --fpu=VFPv4_sp --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 86 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_dma.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4F -e --fpu=VFPv4_sp --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 550 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_exti.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4F -e --fpu=VFPv4_sp --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_flash.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4F -e --fpu=VFPv4_sp --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_fsmc.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4F -e --fpu=VFPv4_sp --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_gpio.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4F -e --fpu=VFPv4_sp --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 14 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_iwdg.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4F -e --fpu=VFPv4_sp --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_rcc.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4F -e --fpu=VFPv4_sp --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 1 170 bytes of CODE memory
+    20 bytes of DATA memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_spi.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4F -e --fpu=VFPv4_sp --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_tim.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4F -e --fpu=VFPv4_sp --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_usart.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4F -e --fpu=VFPv4_sp --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+  66 bytes of CODE  memory
+ 184 bytes of CONST memory
+   4 bytes of DATA  memory
+
+Errors: none
+Warnings: 1
+
+misc.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(53) : Warning[25]: Label 'SystemInit_ExtMemCtl' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(164) : Warning[25]: Label 'NMI_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(168) : Warning[25]: Label 'HardFault_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(172) : Warning[25]: Label 'MemManage_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(176) : Warning[25]: Label 'BusFault_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(180) : Warning[25]: Label 'UsageFault_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(184) : Warning[25]: Label 'SVC_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(188) : Warning[25]: Label 'DebugMon_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(192) : Warning[25]: Label 'PendSV_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(196) : Warning[25]: Label 'SysTick_Handler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(200) : Warning[25]: Label 'WWDG_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(204) : Warning[25]: Label 'PVD_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(208) : Warning[25]: Label 'TAMPER_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(212) : Warning[25]: Label 'RTC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(216) : Warning[25]: Label 'FLASH_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(220) : Warning[25]: Label 'RCC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(224) : Warning[25]: Label 'EXTI0_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(228) : Warning[25]: Label 'EXTI1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(232) : Warning[25]: Label 'EXTI2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(236) : Warning[25]: Label 'EXTI3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(240) : Warning[25]: Label 'EXTI4_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(244) : Warning[25]: Label 'DMA1_Channel1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(248) : Warning[25]: Label 'DMA1_Channel2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(252) : Warning[25]: Label 'DMA1_Channel3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(256) : Warning[25]: Label 'DMA1_Channel4_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(260) : Warning[25]: Label 'DMA1_Channel5_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(264) : Warning[25]: Label 'DMA1_Channel6_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(268) : Warning[25]: Label 'DMA1_Channel7_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(272) : Warning[25]: Label 'ADC1_2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(276) : Warning[25]: Label 'USB_HP_CAN1_TX_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(280) : Warning[25]: Label 'USB_LP_CAN1_RX0_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(284) : Warning[25]: Label 'CAN1_RX1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(288) : Warning[25]: Label 'CAN1_SCE_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(292) : Warning[25]: Label 'EXTI9_5_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(296) : Warning[25]: Label 'TIM1_BRK_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(300) : Warning[25]: Label 'TIM1_UP_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(304) : Warning[25]: Label 'TIM1_TRG_COM_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(308) : Warning[25]: Label 'TIM1_CC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(312) : Warning[25]: Label 'TIM2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(316) : Warning[25]: Label 'TIM3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(320) : Warning[25]: Label 'TIM4_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(324) : Warning[25]: Label 'I2C1_EV_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(328) : Warning[25]: Label 'I2C1_ER_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(332) : Warning[25]: Label 'I2C2_EV_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(336) : Warning[25]: Label 'I2C2_ER_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(340) : Warning[25]: Label 'SPI1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(344) : Warning[25]: Label 'SPI2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(348) : Warning[25]: Label 'USART1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(352) : Warning[25]: Label 'USART2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(356) : Warning[25]: Label 'USART3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(360) : Warning[25]: Label 'EXTI15_10_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(364) : Warning[25]: Label 'RTCAlarm_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(368) : Warning[25]: Label 'USBWakeUp_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(372) : Warning[25]: Label 'TIM8_BRK_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(376) : Warning[25]: Label 'TIM8_UP_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(380) : Warning[25]: Label 'TIM8_TRG_COM_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(384) : Warning[25]: Label 'TIM8_CC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(388) : Warning[25]: Label 'ADC3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(392) : Warning[25]: Label 'FSMC_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(396) : Warning[25]: Label 'SDIO_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(400) : Warning[25]: Label 'TIM5_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(404) : Warning[25]: Label 'SPI3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(408) : Warning[25]: Label 'UART4_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(412) : Warning[25]: Label 'UART5_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(416) : Warning[25]: Label 'TIM6_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(420) : Warning[25]: Label 'TIM7_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(424) : Warning[25]: Label 'DMA2_Channel1_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(428) : Warning[25]: Label 'DMA2_Channel2_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(432) : Warning[25]: Label 'DMA2_Channel3_IRQHandler' is defined pubweak in a section implicitly declared root
+E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\startup\iar\startup_stm32f10x_hd.s(436) : Warning[25]: Label 'DMA2_Channel4_5_IRQHandler' is defined pubweak in a section implicitly declared root
+Errors:   0
+Warnings: 70
+Bytes: 608
+
+stm32f10x_crc.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 86 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_dma.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_exti.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_flash.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_fsmc.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_gpio.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_iwdg.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_rcc.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+
+stm32f10x_spi.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 892 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_tim.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
+ 
+ 3 004 bytes of CODE memory
+
+Errors: none
+Warnings: none
+
+stm32f10x_usart.c 
+iccarm.exe E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c -D USE_STDPERIPH_DRIVER -D STM32F10X_HD -D USE_STM3210B_EVAL -o E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\INC\c\DLib_Config_Full.h -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Includes\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\CMSIS\Core\CM3\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32_USB-FS-Device_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\Libraries\STM32F10x_StdPeriph_Driver\inc\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PAUI\ -I E:\WorkDocu\项目\3D打印\HMI屏_Boot\Project\CFile\PagesData\ -On --use_c++_inline
+
+   IAR ANSI C/C++ Compiler V7.20.2.7424/W32 for ARM
+   Copyright 1999-2014 IAR Systems AB.
