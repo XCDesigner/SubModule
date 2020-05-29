@@ -3,10 +3,18 @@
 CMD_A0 cmd_A0;
 
 /**
+ * brief  
+ * retval 0
+ */
+CMD_A0::CMD_A0() {
+  pri_code = 0xA0;
+}
+
+/**
  * brief  Process
  * retval 0
  */
-int CMD_A0::Process() {
+int CMD_A0::Process(uint8_t *pBufferForReack) {
   switch(sub_code) {
   
   }

@@ -6,7 +6,8 @@
 
 class CMD_A0 : CMD_BASE {
 public:
-  int Process();
+  CMD_A0();
+  int Process(uint8_t *pBufferForReack);
   int Reack();
 private:
   void Sub01();

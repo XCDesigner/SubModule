@@ -7,9 +7,13 @@ CMD_BASE cmd_base;
 // uint8_t CMD_BASE::*pData;
 // char CMD_BASE::result;
 
-int CMD_BASE::Process() {
-  result = -1;
-  Reack();
+/**
+ *  @brief  Command Process
+ *  @param  pBufferForReack:The buffer to store the reack data.without protocal head
+ *  @retval The len of the reack data
+ */ 
+int CMD_BASE::Process(uint8_t *pBufferForReack) {
+  result = 0;
   return 0;
 }
 

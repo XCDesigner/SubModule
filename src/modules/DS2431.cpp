@@ -1,5 +1,7 @@
 #include "DS2431.h"
-#include "stm32f10x_conf.h"
+#include "GPIOS.h"
+
+OneWireEEPROM ds2431;
 
 #define TW1L  (30)
 #define TW0L  (10)
@@ -9,11 +11,12 @@
 #define TPDH  (13)
 #define TPDL  (15)
 #define TPROGMAX  (200000)
-#define DAT_PIN GPIO_Pin_11
 
-#define DAT_H() GPIOA->BSRR = DAT_PIN
-#define DAT_L() GPIOA->BRR = DAT_PIN
-#define READ_DAT()  (GPIOA->IDR & DAT_PIN)
+// #define DAT_H() GPIOA->BSRR = DAT_PIN
+// #define DAT_L() GPIOA->BRR = DAT_PIN
+#define DAT_H() hw_gpio.Write(PB_5, L_HIGH)
+#define DAT_L() hw_gpio.Write(PB_5, L_LOW)
+#define READ_DAT()  hw_gpio.Read(PB_5)
 
 #define DS_ADDRESS_TIME   (16)
 
@@ -24,13 +27,7 @@ bool OneWireEEPROM::chip_exist = true;
  * retval None
  */
 void OneWireEEPROM::Init(void) {
-  GPIO_InitTypeDef GPIO_InitStruct;
-  RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
-
-  GPIO_InitStruct.GPIO_Mode = GPIO_Mode_Out_OD;
-  GPIO_InitStruct.GPIO_Pin = GPIO_Pin_11;
-  GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
-  GPIO_Init(GPIOA, &GPIO_InitStruct);
+  hw_gpio.SetMode(PB_5, GPIO_MODE_OUT_OD);
 }
 
 /**
@@ -204,7 +201,7 @@ bool OneWireEEPROM::ResetBus(void) {
  * brief  
  * retval None
  */
-__INLINE void OneWireEEPROM::WriteBitHigh() {
+void OneWireEEPROM::WriteBitHigh() {
   DAT_L();
   for(int i=0;i<TW1L;i++);
   DAT_H();
@@ -216,7 +213,7 @@ __INLINE void OneWireEEPROM::WriteBitHigh() {
  * brief  
  * retval None
  */
-__INLINE void OneWireEEPROM::WriteBitLow() {
+void OneWireEEPROM::WriteBitLow() {
   DAT_L();
   // Delay for TW0L
   for(int i=0;i<TW0L;i++);
@@ -229,7 +226,7 @@ __INLINE void OneWireEEPROM::WriteBitLow() {
  * brief  
  * retval None
  */
-__INLINE bool OneWireEEPROM::ReadBit() {
+bool OneWireEEPROM::ReadBit() {
   bool retval;
   DAT_L();
   // Delay for TRL

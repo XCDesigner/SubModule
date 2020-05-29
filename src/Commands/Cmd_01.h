@@ -6,7 +6,10 @@
 
 class CMD_01 : CMD_BASE {
 public:
-  int Process();
+  CMD_01();
+  int Process(uint8_t *pBufferForReack);
+private:
+  void Sub00();
 };
 
 extern CMD_01 cmd_01;

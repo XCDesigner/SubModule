@@ -1,13 +1,15 @@
 #include "stdint.h"
+#include "Communication.h"
 
-class CANPort{
+class CANPort {
 public:
   static void Init();
-  static int SendBytes(uint8_t *Datas, uint16_t Len);
+  int SendBytes(uint8_t *Datas, uint16_t Len);
   static bool ReadOneByte(uint8_t *Data);
   static int ReadBytes(uint8_t *pData, uint16_t Len);
   static void ISRInit();
   static void PushData(uint8_t *pData, uint8_t Len);
+  static void ShortReportProcess(uint8_t *pData, uint8_t Len);
 private:
   static void FilterInit();
 

@@ -1,33 +1,32 @@
 #include "Command.h"
 
-Command command_processor;
+// Command uart_command_processor;
+// Command can_command_processor;
 
 /**
  * brief  Handle the command,1st fetch command from uart buffer. 2nd call the command function
  * retval None
  */
-void Command::Handle(uint8_t *pData) {
-  CMD_BASE *cmd_to_process;
+int Command::Handle(uint8_t *pData) {
+  // CMD_BASE *cmd_to_process;
   SplitData(pData, cmd.pData);
-  switch(cmd.pri_code) {
-    case 0x01:
-      cmd_to_process = (CMD_BASE*)(&cmd_01);
-    break;
-
-    case 0xA0:
-      cmd_to_process = (CMD_BASE*)(&cmd_A0);
-    break;
-
-    case 0xAE:
-      cmd_to_process = (CMD_BASE*)(&cmd_AE);
-    break;
-      
-    default:
-      cmd_to_process = (CMD_BASE*)(&cmd_base);
-    break;
+  for(int i=0;i<command_count;i++) {
+    if(cmd.pri_code == cmd_list[i]->pri_code) {
+      reack_len = cmd_list[i]->Process(reack_buff);
+        return reack_len;
+    }
   }
-  cmd_to_process->Process();
+  return 0;
 }
+
+/**
+  * brief  
+  * retval None
+  */
+void Command::GetReackData(uint8_t *pBuff) {
+  for(int i=0;i<reack_len;i++)
+    pBuff[i] = reack_buff[i];
+} 
 
 /**
  * brief  Split data
@@ -39,4 +38,13 @@ int Command::SplitData(uint8_t *pData, uint8_t *pContent) {
   cmd.result = pData[12];
   cmd.pData = &pData[13];
   return 0;
+}
+
+/**
+ * brief  Split data
+ * retval None
+ */
+void Command::AddCmdList(CMD_BASE *Command) {
+  cmd_list[command_count] = Command;
+  command_count++;
 }

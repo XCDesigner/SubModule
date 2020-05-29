@@ -9,12 +9,18 @@
 
 class Command {
 public:
-  void Handle(uint8_t *pData);
+  void GetReackData(uint8_t *pBuff);
+  int Handle(uint8_t *pData);
   int SplitData(uint8_t *pData, uint8_t *pContent);
+  void AddCmdList(CMD_BASE *Command);
 private:
+  CMD_BASE *pList;
   CMD_BASE cmd;
+  uint8_t command_count;
+  CMD_BASE *cmd_list[20];
+  uint8_t reack_buff[128];
+  uint8_t reack_len;
 };
 
-extern Command command_processor;
 
 #endif

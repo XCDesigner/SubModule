@@ -39,6 +39,7 @@ void ADCPort::ADCInit() {
   GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
   GPIO_Init(GPIOB, &GPIO_InitStruct);
 
+  ADC_DeInit(ADC1);
   ADC_InitStruct.ADC_ContinuousConvMode = DISABLE;
   ADC_InitStruct.ADC_DataAlign = ADC_DataAlign_Right;
   ADC_InitStruct.ADC_ExternalTrigConv = ADC_ExternalTrigConv_T1_CC1;
@@ -115,6 +116,8 @@ void ADCPort::TimerInit() {
   TIM_TimeBaseInitTypeDef TIM_TimeBaseInitStruct;
   TIM_BDTRInitTypeDef TIM_BDTRInitStruct;
   TIM_OCInitTypeDef TIM_OCInitStruct;
+
+  TIM_DeInit(TIM1);
 
   RCC_APB2PeriphClockCmd(RCC_APB2Periph_TIM1, ENABLE);
 

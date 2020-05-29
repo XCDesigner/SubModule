@@ -1,6 +1,17 @@
 #include "FAN.h"
 #include "GPIOS.h"
 
+FAN fan_extboard;
+FAN fan_end;
+
+/**
+  * @brief  Initialize
+  * @retval None
+  */
+FAN::FAN() {
+  Valid = false;
+}
+
 /**
   * @brief  Initialize
   * @retval None
@@ -13,6 +24,7 @@ void FAN::Init(GPIO_PIN Pin, GPIO_LEVEL Level) {
   else
     InactiveLevel = L_HIGH;
   hw_gpio.OutputWrite(ControlPin, InactiveLevel);
+  Valid = true;
 }
 
 /**
@@ -20,7 +32,8 @@ void FAN::Init(GPIO_PIN Pin, GPIO_LEVEL Level) {
   * @retval None
   */
 void FAN::On() {
-  hw_gpio.Write(ControlPin, ActiveLevel);
+  if(Valid == true)
+    hw_gpio.Write(ControlPin, ActiveLevel);
 }
 
 /**
@@ -28,5 +41,6 @@ void FAN::On() {
   * @retval None
   */
 void FAN::Off(){
-  hw_gpio.Write(ControlPin, InactiveLevel);
+  if(Valid == true)
+    hw_gpio.Write(ControlPin, InactiveLevel);
 }

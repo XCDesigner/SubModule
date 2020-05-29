@@ -1,32 +1,30 @@
-#include "usart.h"
+#include "Can.h"
 #include "protocal.h"
-#include "SerialPort.h"
-#include "SPIPort.h"
+#include "CANPort.h"
 #include "Commands/Command.h"
 
-Usart uart;
+CAN can;
 
 /**
   * @brief  Initialize
   * @retval None
   */
-void Usart::Init(void) {
-  hw_uart_port.Init(115200);
-  commands.AddCmdList((CMD_BASE*)&cmd_01);
-  commands.AddCmdList((CMD_BASE*)&cmd_A0);
+void CAN::Init(void) {
+  hw_can_port.Init();
+  commands.AddCmdList((CMD_BASE*)&cmd_AE);
 }
 
 /**
   * @brief  Initialize
   * @retval None
   */
-void Usart::Loop(void) {
+void CAN::Loop(void) {
   uint8_t tmp_buff[8];
   uint8_t tmp_len;
   uint16_t id;
   do
   {
-    tmp_len = hw_uart_port.ReadBytes(tmp_buff, sizeof(tmp_buff));
+    tmp_len = hw_can_port.ReadBytes(tmp_buff, sizeof(tmp_buff));
     if(tmp_len > 0) {
       if(PushRingBuff(tmp_buff, tmp_len) != tmp_len) {
         read_head = 0;
@@ -41,7 +39,7 @@ void Usart::Loop(void) {
     if(reack_len != 0) {
       commands.GetReackData(parsed_buff);
       uint16_t parsed_len = ivi_protocal.Packedup(0, parsed_buff, send_buffer, reack_len);
-      hw_uart_port.SendBytes(send_buffer, parsed_len);
+      hw_can_port.SendBytes(send_buffer, parsed_len);
     }
   }
 }
@@ -50,7 +48,7 @@ void Usart::Loop(void) {
  * brief  Push datas to the ring buffer
  * retval None
  */
-uint8_t Usart::PushRingBuff(uint8_t *p_src, uint8_t len) {
+uint8_t CAN::PushRingBuff(uint8_t *p_src, uint8_t len) {
   uint8_t tmp_head;
   uint8_t j = 0;
   for(int i=0;i<len;i++) {

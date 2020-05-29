@@ -3,7 +3,7 @@
 class SerialPort {
 public:
   static void Init(int Baudary);
-  static int SendBytes(uint8_t *Datas, uint16_t Len);
+  int SendBytes(uint8_t *Datas, uint16_t Len);
   static bool ReadOneByte(uint8_t *Data);
   static int ReadBytes(uint8_t *pData, uint16_t Len);
   static bool ISR_SendOneByte(void);

@@ -14,7 +14,8 @@ void CANPort::Init(){
   GPIO_InitTypeDef GPIO_InitStruct;
   CAN_InitTypeDef CAN_InitStruct;
 
-  RCC_APB2PeriphClockCmd(RCC_APB2Periph_SPI1 | RCC_APB2Periph_GPIOA | RCC_APB2Periph_AFIO, ENABLE);
+  RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA | RCC_APB2Periph_AFIO, ENABLE);
+  RCC_APB1PeriphClockCmd(RCC_APB1Periph_CAN1, ENABLE);
 
   GPIO_InitStruct.GPIO_Mode = GPIO_Mode_AF_PP;
   GPIO_InitStruct.GPIO_Pin = GPIO_Pin_11;
@@ -47,8 +48,21 @@ void CANPort::Init(){
   */
 void CANPort::FilterInit() {
   CAN_FilterInitTypeDef CAN_FilterInitStruct;
+
+  // For short reports
   CAN_FilterInitStruct.CAN_FilterActivation = ENABLE;
   CAN_FilterInitStruct.CAN_FilterFIFOAssignment = CAN_FilterFIFO0;
+  CAN_FilterInitStruct.CAN_FilterIdHigh = 0xffff;
+  CAN_FilterInitStruct.CAN_FilterIdLow = 0xffff;
+  CAN_FilterInitStruct.CAN_FilterMaskIdHigh = 0xffff;
+  CAN_FilterInitStruct.CAN_FilterMaskIdLow = 0xffff;
+  CAN_FilterInitStruct.CAN_FilterMode = CAN_FilterMode_IdList;
+  CAN_FilterInitStruct.CAN_FilterNumber = 0;
+  CAN_FilterInitStruct.CAN_FilterScale = CAN_FilterScale_32bit;
+  CAN_FilterInit(&CAN_FilterInitStruct);
+
+  // For long reports
+  CAN_FilterInitStruct.CAN_FilterFIFOAssignment = CAN_FilterFIFO1;
   CAN_FilterInitStruct.CAN_FilterIdHigh = 0xffff;
   CAN_FilterInitStruct.CAN_FilterIdLow = 0xffff;
   CAN_FilterInitStruct.CAN_FilterMaskIdHigh = 0xffff;
@@ -75,24 +89,48 @@ void CANPort::ISRInit() {
 }
 
 /**
-  * @brief  
-  * @param  
-  * @retval  
+  * @brief  Send a pack.This function will block when there is no node on the bus
+  * @param  Datas:The Datas to be sent
+  * @param  Len:The Length of the data
+  * @retval How many datas have been sent accurate
   */
 int CANPort::SendBytes(uint8_t *Datas, uint16_t Len) {
   CanTxMsg TxMessage;
   uint8_t i;
+  uint8_t transmmit_result;
+  uint8_t mail_box_number;
   int byte_to_send = 0;
+  int byte_sent;
+  uint8_t retry;
   
   TxMessage.IDE = CAN_ID_STD;
   TxMessage.RTR = CAN_RTR_DATA;
   TxMessage.StdId = 0xffff; 
-  while(Len > 0) {
-    for(i=0;(i<8) && (Len--);i++)
+  while(Len) {
+    if(Len >= 8)
+      byte_to_send = 8;
+    else
+      byte_to_send = Len;
+    Len = Len - byte_to_send;
+    for(i=0;i<byte_to_send;i++)
       TxMessage.Data[i] = *Datas++;
     TxMessage.DLC = i;
-    byte_to_send = byte_to_send + i;
-    CAN_Transmit(CAN1, &TxMessage);
+    
+    retry = 5;
+    do {
+      mail_box_number = CAN_Transmit(CAN1, &TxMessage);
+      do
+      {
+        transmmit_result = CAN_TransmitStatus(CAN1, mail_box_number);
+      } while (transmmit_result == CANTXPENDING);
+      if(transmmit_result == CANTXOK) {
+        break;
+      }
+    }while(retry--);
+    if(transmmit_result != CANTXOK) {
+      break;
+    }
+    byte_sent = byte_sent + byte_to_send;
   }
   return byte_to_send;
 }
@@ -143,6 +181,15 @@ void CANPort::PushData(uint8_t *pData, uint8_t Len) {
     ring_recv_buffer[read_head] = pData[i];
     read_head = next_head;
   }
+}
+
+/**
+  * @brief  
+  * @param  
+  * @retval  
+  */
+void CANPort::ShortReportProcess(uint8_t *pData, uint8_t Len) {
+  
 }
 
 extern "C" {

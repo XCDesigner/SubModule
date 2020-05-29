@@ -19,8 +19,6 @@ static const strTempTable temp_table[] = {
 void Temperature::Init(void) {
   adc = &hw_adc_port;
   pwm = &hw_pwm_port;
-  adc->Init();
-  adc->Enable();
   pwm->Init();
 }
 

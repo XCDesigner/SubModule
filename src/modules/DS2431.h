@@ -21,6 +21,6 @@ private:
   static bool chip_exist;
 };
 
-OneWireEEPROM ds2431;
+extern OneWireEEPROM ds2431;
 
 #endif

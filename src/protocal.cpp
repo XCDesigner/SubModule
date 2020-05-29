@@ -87,7 +87,7 @@ int16_t Protocal::Parse(uint16_t *target_id, uint8_t *p_src, uint8_t *p_dest, ui
     return (pack_len + 10);
   }
 
-  return (pack_len + 10);
+  return 0;
   
 }
 

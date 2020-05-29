@@ -3,25 +3,20 @@
 CMD_AE cmd_AE;
 
 /**
- * brief  Process
+ * brief  
  * retval 0
  */
-int CMD_AE::Process() {
-  switch(sub_code) {
-  
-  }
-
-  return 0;
+CMD_AE::CMD_AE() {
+  pri_code = 0xAE;
 }
 
 /**
- * brief  Reack
+ * brief  Process
  * retval 0
  */
-int CMD_AE::Reack() {
+int CMD_AE::Process(uint8_t *pBufferForReack) {
   switch(sub_code) {
-    case 0x00:
-    break;
+    
   }
 
   return 0;
@@ -32,7 +27,7 @@ int CMD_AE::Reack() {
  * retval 0
  */
 void CMD_AE::Sub01() {
-
+  
 }
 
 /**

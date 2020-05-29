@@ -1,11 +1,10 @@
-#ifndef _USART_H_
-#define _USART_H_
+#ifndef _CAN_H_
+#define _CAN_H_
 
 #include "stdint.h"
 #include "Commands/Command.h"
-#include "Communication.h"
 
-class Usart {
+class CAN {
 public:
   void Init(void);
   void Loop(void);
@@ -18,6 +17,6 @@ private:
   Command commands;
 };
 
-extern Usart uart;
+extern CAN can;
 
 #endif
